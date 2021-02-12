@@ -16,7 +16,7 @@ current_day=$(date|awk '{print $1}')
 # Check for the day of the week
 # Print and send email
 
-while [ ${#email_array[@]} -le 3 ]
+for email in ${TO_array[@]}
 do
 
 if [ $current_day = "Mon" ]
