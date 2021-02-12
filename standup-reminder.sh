@@ -23,14 +23,14 @@ if [ $current_day = "Mon" ]
 
 then
     echo ${email_array[0]}
-    echo "Subject: Cloud School (The Explorers) Standup"|sendmail $TO_array
+    echo "Subject: Cloud School (The Explorers) Standup"|sendmail $email
 elif [ $current_day = "Sat" ] || [ $current_day = "Sun" ]
 then
     echo ${email_array[2]}
-    echo "Subject: Cloud School (The Explorers) Standup"|sendmail $TO_array
+    echo "Subject: Cloud School (The Explorers) Standup"|sendmail $email
 else
     echo ${email_array[1]}
-    echo "Subject: Cloud School (The Explorers) Standup"|sendmail $TO_array
+    echo "Subject: Cloud School (The Explorers) Standup"|sendmail $email
 fi
 
 done
