@@ -2,7 +2,7 @@
 
 # STANDUP REMINDER
 # Set email destination
-TO_array=("tosinamuda@gmail.com" "amarachi.anyim00@gmail.com" "dammierezseriki@gmail.com" "oluwatomisinlalude@gmail.com")
+TO_array=("123@gmail.com" "456@gmail.com" "789@gmail.com" "abc@gmail.com")
 
 # Declare array
 declare -a email_array
